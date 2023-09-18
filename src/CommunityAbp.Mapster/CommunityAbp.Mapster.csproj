@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<WarningsAsErrors>Nullable</WarningsAsErrors>
+		<LangVersion>latest</LangVersion>
+		<NoWarn>$(NoWarn);CS1591;CS0436</NoWarn>
+		<AssemblyName>CommunityAbp.Mapster</AssemblyName>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<PackageId>CommunityAbp.Mapster</PackageId>
+		<AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+		<GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+		<GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+		<GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+		<!-- Include symbol files (*.pdb) in the built .nupkg -->
+		<AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Mapster" Version="7.3.0" />
+		<PackageReference Include="Volo.Abp.Auditing" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.ObjectExtending" Version="7.3.3" />
+		<PackageReference Include="Volo.Abp.ObjectMapping" Version="7.3.3" />
+	</ItemGroup>
+
+</Project>
