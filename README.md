@@ -1,5 +1,7 @@
 # CommunityAbp.Mapster
 
+[![.NET](https://github.com/kfrancis/CommunityAbp.Mapster/actions/workflows/dotnet.yml/badge.svg)](https://github.com/kfrancis/CommunityAbp.Mapster/actions/workflows/dotnet.yml)
+
 ## What is this?
 
 We're experimenting with Mapster as an alternative to AutoMapper. This is a community project and not an official ABP Framework project.
